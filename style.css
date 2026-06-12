@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  background-color: #D0C88A;
+  background-color: #DCB8CB;
   grid-template-columns:1fr 2fr 1fr;
   grid-template-rows: auto auto auto auto auto auto auto;
   font-style: #454421;
