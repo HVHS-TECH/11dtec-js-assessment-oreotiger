@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  background-color: #D0C88A;
+  grid-template-columns:1fr 2fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  font-style: #454421;
+  margin-top: 8px;
+  padding:20px;
+}
