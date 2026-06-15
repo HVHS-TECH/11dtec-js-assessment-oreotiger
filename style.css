@@ -2,7 +2,6 @@ body {
  background-color: #DCB8CB; 
 }
 
-
 .container {
   display: grid;
   background-color: #DCB8CB;
@@ -12,3 +11,33 @@ body {
   margin-top: 8px;
   padding:20px;
 }
+
+    /* visited link */
+    nav a:visited {
+      color: #454421;
+      background-color: #95AB57;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    /* mouse over link */
+    nav a:hover {
+      color: #454421;
+      background-color: #D0C88A;
+      font-weight: bold;
+      text-decoration: underline;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    /* selected link */
+    nav a:active {
+      color: #454421;
+      background-color: #95AB57;
+      font-weight: bold;
+      text-decoration: underline;
+      padding: 5px;
+      border-radius: 5px;
+    }
