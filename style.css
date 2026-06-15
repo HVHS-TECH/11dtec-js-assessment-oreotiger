@@ -1,4 +1,7 @@
-color: #DCB8CB;
+body {
+ background-color: #DCB8CB; 
+}
+
 
 .container {
   display: grid;
