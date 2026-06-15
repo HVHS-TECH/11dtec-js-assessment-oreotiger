@@ -46,7 +46,7 @@ nav {
 
     /* mouse over link */
     nav a:hover {
-      color: #4D7298
+      color: #4D7298;
       background-color: #D5C9DF;
       font-weight: bold;
       text-decoration: underline;
@@ -56,8 +56,8 @@ nav {
 
     /* selected link */
     nav a:active {
-      color: #454421;
-      background-color: #95AB57;
+      color: #4D7298;
+      background-color: #DCB8CB;
       font-weight: bold;
       text-decoration: underline;
       padding: 5px;
