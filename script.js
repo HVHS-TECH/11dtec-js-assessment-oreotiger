@@ -2,6 +2,7 @@ console.log("Running script.js")
 
 //Constants
 const OUTPUT = document.getElementById ("JavaScriptOutput");
+const NAME_FIELD = document.getElementById("nameField");
 
 //Variables
 
