@@ -1,7 +1,7 @@
-console.log("Running script.js");
+console.log("Running script.js")
 
 //Constants
-const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
+const OUTPUT = document.getElementById ("JavaScriptOutput");
 
 //Variables
 
