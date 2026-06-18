@@ -13,3 +13,4 @@ const OUTPUT = document.getElementById ("spaceForJavaScriptOutput");
 
 
 //Console output
+console.log ("Testing pages console")
