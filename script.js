@@ -9,7 +9,7 @@ let userName = "Beatrix";
 
 //Functions
 function receipt(){
-    
+    OUTPUT.innerHTML = userName
 }
 
 //Output / Main code
