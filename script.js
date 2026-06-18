@@ -5,7 +5,7 @@ const OUTPUT = document.getElementById ("JavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 
 //Variables
-
+let userName = "Beatrix";
 
 //Functions
 
