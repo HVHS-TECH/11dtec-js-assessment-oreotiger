@@ -8,7 +8,9 @@ const NAME_FIELD = document.getElementById("nameField");
 let userName = "Beatrix";
 
 //Functions
-
+function receipt(){
+    
+}
 
 //Output / Main code
 
