@@ -9,11 +9,13 @@ let userName = "Beatrix";
 
 //Functions
 function order(){
-    userName = NAME_FIELD.value
+    userName = NAME_FIELD.value;
+    OUTPUT.innerHTML = userName;
 }
 
 function receipt(){
-    OUTPUT.innerHTML = userName
+    userName = NAME_FIELD.value
+    OUTPUT.innerHTML = userName;
 }
 
 //Output / Main code
