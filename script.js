@@ -8,6 +8,10 @@ const NAME_FIELD = document.getElementById("nameField");
 let userName = "Beatrix";
 
 //Functions
+function order(){
+    userName = NAME_FIELD.value
+}
+
 function receipt(){
     OUTPUT.innerHTML = userName
 }
