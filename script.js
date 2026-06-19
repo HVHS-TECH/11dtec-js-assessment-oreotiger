@@ -26,12 +26,12 @@ function receipt(){
     OUTPUT.innerHTML = userName;
 }
 
-function displayProduct (_name, _price){
+function display (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 
 function calculateChange (_money, _price) {
-    change = addUserMoney - 4;
+    change = userMoney - 4;
     return change;
 }
 
