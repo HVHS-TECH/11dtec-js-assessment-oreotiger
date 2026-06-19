@@ -20,6 +20,19 @@ let vanChocolate = "3";
 function receipt(){
     userName = NAME_FIELD.value
     OUTPUT.innerHTML = userName;
+    change = userMoney - 3;
+    display(chocStrawberry, 3)
+    display(chocVanilla, 3)
+    display(chocChocolate, 3)
+    display(vanStrawberry, 3)
+    display(vanVanilla, 3)
+    display(vanChocolate, 3)
+    if (userMoney >= 3) {
+            calculateChange(userMoney, 3);
+            OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
+        } else {
+            OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar. <br> You will get no change. </p> "
+        }
 }
 
 function display (_name, _price){
@@ -37,20 +50,6 @@ function order(){
 }
 
 //Output / Main code
-change = userMoney - 3;
-display(chocStrawberry, 3)
-display(chocVanilla, 3)
-display(chocChocolate, 3)
-display(vanStrawberry, 3)
-display(vanVanilla, 3)
-display(vanChocolate, 3)
- if (userMoney >= 3) {
-        calculateChange(userMoney, 3);
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
-    } else {
-        OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> Sorry you CAN'T afford a chocolate bar. <br> You will get no change. </p> "
-    }
-
 
 //Console output
 console.log ("Testing pages console")
