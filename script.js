@@ -30,6 +30,11 @@ function displayProduct (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
 }
 
+function calculateChange (_money, _price) {
+    change = addUserMoney - 4;
+    return change;
+}
+
 //Output / Main code
 change = userMoney - 3;
 displayProduct(chocStrawberry, 3)
