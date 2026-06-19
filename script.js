@@ -38,12 +38,12 @@ function order(){
 
 //Output / Main code
 change = userMoney - 3;
-displayProduct(chocStrawberry, 3)
-displayProduct(chocVanilla, 3)
-displayProduct(chocChocolate, 3)
-displayProduct(vanStrawberry, 3)
-displayProduct(vanVanilla, 3)
-displayProduct(vanChocolate, 3)
+display(chocStrawberry, 3)
+display(chocVanilla, 3)
+display(chocChocolate, 3)
+display(vanStrawberry, 3)
+display(vanVanilla, 3)
+display(vanChocolate, 3)
  if (userMoney >= 3) {
         calculateChange(userMoney, 3);
         OUTPUT.innerHTML += "<p>A chocolate bar costs $4. <br> You CAN afford a chocolate bar. <br> You will get $" + change + " change. </p></p> "
