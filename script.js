@@ -26,6 +26,10 @@ function receipt(){
     OUTPUT.innerHTML = userName;
 }
 
+function displayProduct (_name, _price){
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
+}
+
 //Output / Main code
 change = userMoney - 3;
 displayProduct(chocStrawberry, 3)
