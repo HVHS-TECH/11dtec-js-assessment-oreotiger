@@ -12,6 +12,14 @@ body {
   padding:20px;
 }
 
+button {
+  background: #CEEAF7;
+  border-width: 1px;
+  border-radius: 5px;
+  : 10px;
+
+}
+
 nav {
       background-color: #DCB8CB;
       padding: 20px;

@@ -14,16 +14,25 @@
         <a href="drinks.html">Drinks</a>
     </nav>
 
+    <br> <br>
     <form onsubmit = return false;>
-    <label for="formName">Name:</label>
-    <input type="text" id="nameField" name="formName" placeHolder="Name">
-     <input type="submit" onClick=order()>
+        <label for="formName">Name:</label>
+        <input type="text" id="nameField" name="formName" placeHolder="Name">
+        <input type="submit" onClick=order()>
     </form>
 
     <form onsubmit = return false;>
-    <label for="formName">Name:</label>>
-    <input type="button" onClick=receipt()>
-    </form>
+        <label for="formName">Money: </label>
+        <input type="number" id="moneyField" name="formMoney" placeholder="Money">
+        <input type="submit" onClick=start()>
+    <br> <br>
+ 
+    <button onClick="receipt()">Receipt</button>
+
+    
+    <div id="JavaScriptOutput">
+
+    </div>
 
     <div class="container">
         <div class="item1">1</div>
@@ -32,10 +41,6 @@
         <div class="item4">4</div>
         <div class="item5">5</div>
         <div class="item6">6</div>
-    </div>
-    
-    <div id="JavaScriptOutput">
-
     </div>
 
 <script src="../script.js"></script>
