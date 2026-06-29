@@ -17,7 +17,6 @@ let vanChocolate = 3;
 
 
 //Functions
-
 function order(){
     userName = NAME_FIELD.value;
     OUTPUT.innerHTML += userName;
@@ -29,7 +28,7 @@ function display (_name, _price){
 
 function receipt(){
     let userMoney = Number (MONEY_FIELD.value);
-    userName = NAME_FIELD.value
+    userName = NAME_FIELD.value;
     OUTPUT.innerHTML = userName;
     change = userMoney - 3;
     display(chocStrawberry, 3);
@@ -50,8 +49,6 @@ function calculateChange (_money, _price) {
     change = userMoney - 4;
     return change;
 }
-
-
 
 //Output / Main code
 
