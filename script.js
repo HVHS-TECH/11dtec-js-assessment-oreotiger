@@ -1,4 +1,4 @@
-console.log("Running script.js")
+console.log("Running script.js");
 
 //Constants
 const OUTPUT = document.getElementById ("JavaScriptOutput");
@@ -23,7 +23,7 @@ function order(){
 }
 
 function display (_name, _price){
-    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>"
+    OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
 }
 
 function receipt(){
