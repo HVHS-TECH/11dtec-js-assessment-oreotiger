@@ -40,7 +40,7 @@ function receipt(){
     if (userMoney >= 3) {
             calculateChange(userMoney, 3);
             OUTPUT.innerHTML += "<p>Your name is" + userName + 
-            OUTPUT.innerHTML += "<p>You can afford this order. <br> You will get $" + change + " change. </p> ";
+            OUTPUT.innerHTML +="<p>You can afford this order. <br> You will get $" + change + " change. </p> ";
         } else {
             OUTPUT.innerHTML += "<p>Sorry you can't afford this order. <br> You will get no change. </p> ";
         }
