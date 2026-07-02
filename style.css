@@ -13,10 +13,10 @@ body {
 }
 
 button {
+  border-color:hsl(199, 27%, 70%);
   background: #CEEAF7;
   border-width: 1px;
   border-radius: 5px;
-  color: #CEEAF7;
 }
 
 a {
