@@ -15,11 +15,11 @@ let vanStrawberry = 3;
 let vanVanilla = 3;
 let vanChocolate = 3;
 
-OUTPUT.innerHTML += "<p>Please fill in your details before continuing to order. </p>"
+
 
 //Functions
 function details(){
-    OUTPUT.innerHTML += "<p>Please fill in your details before continuing to order. </p>"
+
 }
 
 function display (_name, _price){
