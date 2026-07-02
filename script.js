@@ -18,7 +18,7 @@ let vanChocolate = 3;
 
 //Functions
 function details(){
-
+    OUTPUT.innerHTML += "<p>Please fill in your "
 }
 
 function display (_name, _price){
