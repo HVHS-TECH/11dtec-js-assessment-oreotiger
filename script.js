@@ -22,6 +22,10 @@ function details(){
 
 }
 
+function order(){
+
+}
+
 function display (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
 }
