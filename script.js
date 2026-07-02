@@ -17,8 +17,8 @@ let vanChocolate = 3;
 
 
 //Functions
-function order(){
-    userName = NAME_FIELD.value;
+function details(){
+
 }
 
 function display (_name, _price){
