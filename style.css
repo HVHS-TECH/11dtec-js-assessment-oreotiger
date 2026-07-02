@@ -16,6 +16,16 @@ button {
   background: #CEEAF7;
   border-width: 1px;
   border-radius: 5px;
+  color: #CEEAF7;
+}
+
+a {
+  background-color: #CEEAF7;
+  padding: 10px;
+  border-radius: 5px;
+  border: 10px;
+  text-decoration: none;
+  color: #000000;
 }
 
 nav {
