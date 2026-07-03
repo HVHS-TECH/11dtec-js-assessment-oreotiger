@@ -33,9 +33,9 @@ function showDetails() {
 function showOrder() {
     //Show details
     console.log("Show order");
-    order.style.display="none";
+    order.style.display="block";
     receipt.style.display="none";
-    details.style.display="block";
+    details.style.display="none";
     TITLE.innerHTML = "Details"
 
 }
