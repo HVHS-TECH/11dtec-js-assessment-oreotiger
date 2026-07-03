@@ -9,7 +9,7 @@
 <body>
 
     <div class="container">
-        <div class="item1">
+        <div class="details">
             <p>Please fill in your personal details before continuing to order. </p>
             <form onsubmit = "return false;">
                 <label for="formName">Name:</label>
@@ -20,11 +20,14 @@
                 <input type="submit" onClick=details()>
             </form>
             <br> <br>
-            <button onClick="order()">Order</button>
             <br> <br>
         </div>
 
-        <div class="item2">
+        <div class="order">
+            <p>order</p>
+        </div>
+
+        <div class="receipt">
             <button onClick="receipt()">Pay Now</button>
         </div>
 
