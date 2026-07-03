@@ -44,8 +44,8 @@ function showReceipt() {
     //Show details
     console.log("Show receipt");
     order.style.display="none";
-    receipt.style.display="none";
-    details.style.display="block";
+    receipt.style.display="block";
+    details.style.display="none";
     TITLE.innerHTML = "Details"
 
 }
