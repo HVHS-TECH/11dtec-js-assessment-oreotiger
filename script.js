@@ -23,7 +23,11 @@ let receiptBox = document.getElementById ("receiptBox");
 function showDetails() {
     //Show details
     console.log("Show details");
-    
+    order.style.display="none";
+    receipt.style.display="none";
+    details.style.display="block";
+    TITLE.innerHTML = "Details"
+
 }
 
 function details(){
