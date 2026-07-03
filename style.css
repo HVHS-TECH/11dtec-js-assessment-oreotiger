@@ -24,6 +24,7 @@ input {
   border-color: #CEEAF7;
   border-radius: 5px;
   text-decoration: none;
+  border-style: solid;
 }
 
 a {
