@@ -12,7 +12,19 @@ body {
   padding:20px;
 }
 
+.detailsbox {
+  display: block;
+}
 
+.orderbox {
+  display: grid;
+  display: none;
+}
+
+.receiptbox {
+  display: grid;
+  display: none;
+}
 
 button {
   background-color: #CEEAF7;
