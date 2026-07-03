@@ -12,19 +12,28 @@ body {
   padding:20px;
 }
 
+
+
 button {
-  border-color:hsl(199, 27%, 70%);
-  background: #CEEAF7;
-  border-width: 1px;
+  background-color: #CEEAF7;
+  border-color: hsl(199, 27%, 70%);
   border-radius: 5px;
+  text-decoration: none;
+  border-style: solid;
+  padding: 5px;
+}
+
+::placeholder {
+  color: hsl(198, 24%, 47%);
 }
 
 input {
   background-color: #CEEAF7;
-  border-color: #CEEAF7;
+  border-color: hsl(199, 27%, 70%);
   border-radius: 5px;
   text-decoration: none;
   border-style: solid;
+  padding: 5px;
 }
 
 a {
