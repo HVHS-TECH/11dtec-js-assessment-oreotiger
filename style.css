@@ -17,12 +17,10 @@ body {
 }
 
 .orderBox {
-  display: grid;
   display: none;
 }
 
 .receiptBox {
-  display: grid;
   display: none;
 }
 
