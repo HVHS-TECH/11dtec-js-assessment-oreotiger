@@ -26,27 +26,27 @@ function showDetails() {
     orderBox.style.display="none";
     receiptBox.style.display="none";
     detailsBox.style.display="block";
-    TITLE.innerHTML = "Details"
+    TITLE.innerHTML = "Details";
 
 }
 
 function showOrder() {
-    //Show details
+    //Show order
     console.log("Show order");
     orderBox.style.display="block";
     receiptBox.style.display="none";
     detailsBox.style.display="none";
-    TITLE.innerHTML = "Details"
+    TITLE.innerHTML = "Order";
 
 }
 
 function showReceipt() {
-    //Show details
+    //Show receipt
     console.log("Show receipt");
     orderBox.style.display="none";
     receiptBox.style.display="block";
     detailsBox.style.display="none";
-    TITLE.innerHTML = "Details"
+    TITLE.innerHTML = "Receipt";
 
 }
 
