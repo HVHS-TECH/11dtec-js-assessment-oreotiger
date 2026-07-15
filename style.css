@@ -12,16 +12,16 @@ body {
   padding:20px;
 }
 
-.detailsbox {
+.detailsBox {
   display: block;
 }
 
-.orderbox {
+.orderBox {
   display: grid;
   display: none;
 }
 
-.receiptbox {
+.receiptBox {
   display: grid;
   display: none;
 }

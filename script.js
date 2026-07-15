@@ -14,18 +14,18 @@ let chocChocolate = 3;
 let vanStrawberry = 3;
 let vanVanilla = 3;
 let vanChocolate = 3;
-let detailsBox = document.getElementById ("detailsbox");
-let orderBox = document.getElementById ("orderbox");
-let receiptBox = document.getElementById ("receiptbox");
+let detailsBox = document.getElementById ("detailsBox");
+let orderBox = document.getElementById ("orderBox");
+let receiptBox = document.getElementById ("receiptBox");
 
 //Functions
 
 function showDetails() {
     //Show details
     console.log("Show details");
-    orderbox.style.display="none";
-    receiptbox.style.display="none";
-    detailsbox.style.display="block";
+    orderBox.style.display="none";
+    receiptBox.style.display="none";
+    detailsBox.style.display="block";
     TITLE.innerHTML = "Details"
 
 }
@@ -33,9 +33,9 @@ function showDetails() {
 function showOrder() {
     //Show details
     console.log("Show order");
-    orderbox.style.display="block";
-    receiptbox.style.display="none";
-    detailsbox.style.display="none";
+    orderBox.style.display="block";
+    receiptBox.style.display="none";
+    detailsBox.style.display="none";
     TITLE.innerHTML = "Details"
 
 }
@@ -43,9 +43,9 @@ function showOrder() {
 function showReceipt() {
     //Show details
     console.log("Show receipt");
-    orderbox.style.display="none";
-    receiptbox.style.display="block";
-    detailsbox.style.display="none";
+    orderBox.style.display="none";
+    receiptBox.style.display="block";
+    detailsBox.style.display="none";
     TITLE.innerHTML = "Details"
 
 }
