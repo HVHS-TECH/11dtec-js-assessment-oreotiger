@@ -17,11 +17,11 @@ body {
 }
 
 .orderBox {
-  display: block;
+  display: none;
 }
 
 .receiptBox {
-  display: block;
+  display: none;
 }
 
 button {
