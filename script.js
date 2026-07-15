@@ -23,9 +23,9 @@ let receiptBox = document.getElementById ("receiptBox");
 function showDetails() {
     //Show details
     console.log("Show details");
-    orderBox.style="none";
-    receiptBox.style="none";
-    detailsBox.style="block";
+    orderBox.style.display="none";
+    receiptBox.style.display="none";
+    detailsBox.style.display="block";
     TITLE.innerHTML = "Details";
 
 }
@@ -33,9 +33,9 @@ function showDetails() {
 function showOrder() {
     //Show order
     console.log("Show order");
-    orderBox.style="block";
-    receiptBox.style="none";
-    detailsBox.style="none";
+    orderBox.style.display="block";
+    receiptBox.style.display="none";
+    detailsBox.style.display="none";
     TITLE.innerHTML = "Order";
 
 }
@@ -43,9 +43,9 @@ function showOrder() {
 function showReceipt() {
     //Show receipt
     console.log("Show receipt");
-    orderBox.style="none";
-    receiptBox.style="block";
-    detailsBox.style="none";
+    orderBox.style.display="none";
+    receiptBox.style.display="block";
+    detailsBox.style.display="none";
     TITLE.innerHTML = "Receipt";
 
 }
