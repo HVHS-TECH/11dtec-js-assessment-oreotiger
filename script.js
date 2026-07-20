@@ -8,12 +8,6 @@ const MONEY_FIELD = document.getElementById("moneyField");
 //Variables
 let userName = String (NAME_FIELD.value);
 let userMoney = Number (MONEY_FIELD.value);
-let chocStrawberry = 3;
-let chocVanilla = 3;
-let chocChocolate = 3;
-let vanStrawberry = 3;
-let vanVanilla = 3;
-let vanChocolate = 3;
 let detailsBox; document.getElementById (detailsBox);
 let orderBox; document.getElementById (orderBox);
 let receiptBox; document.getElementById (receiptBox);
