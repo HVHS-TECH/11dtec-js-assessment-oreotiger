@@ -6,11 +6,11 @@ const NAME_FIELD = document.getElementById("nameField");
 const MONEY_FIELD = document.getElementById("moneyField");
 
 //Variables
-let userName = String (NAME_FIELD.value);
-let userMoney = Number (MONEY_FIELD.value);
-let detailsBox; document.getElementById (detailsBox);
-let orderBox; document.getElementById (orderBox);
-let receiptBox; document.getElementById (receiptBox);
+let userName; // String (NAME_FIELD.value);
+let userMoney; // Number (MONEY_FIELD.value);
+let detailsBox; 
+let orderBox; 
+let receiptBox; 
 
 //Functions
 
