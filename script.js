@@ -16,9 +16,8 @@ let receiptBox; document.getElementById (receiptBox);
 
 function showDetails() {
     //Show details
-    let detailsBox=document.getElementById (detailsBox);
-    let orderBox=document.getElementById (orderBox);
-    let receiptBox=document.getElementById (receiptBox);
+    let detailsBox = document.getElementById (detailsBox);
+    let orderBox = document.getElementById (orderBox);
     console.log("Show details");
     orderBox.style.display = "none";
     receiptBox.style.display = "none";
@@ -29,8 +28,8 @@ function showDetails() {
 
 function showOrder() {
     //Show order
-    let orderBox=document.getElementById (orderBox);
-    let receiptBox=document.getElementById (receiptBox);
+    let orderBox = document.getElementById (orderBox);
+    let receiptBox = document.getElementById (receiptBox);
     console.log("Show order");
     orderBox.style.display ="block";
     receiptBox.style.display ="none";
@@ -41,9 +40,8 @@ function showOrder() {
 
 function showReceipt() {
     //Show receipt
-    let detailsBox=document.getElementById (detailsBox);
-    let orderBox=document.getElementById (orderBox);
-    let receiptBox=document.getElementById (receiptBox);
+    let detailsBox = document.getElementById (detailsBox);
+    let receiptBox = document.getElementById (receiptBox);
     console.log("Show receipt");
     orderBox.style.display="none";
     receiptBox.style.display="block";
