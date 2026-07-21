@@ -35,8 +35,8 @@ function showOrder() {
     orderBox.style.display ="block";
     receiptBox.style.display ="none";
     detailsBox.style.display ="none";
-    **/
-    TITLE.innerHTML = "Order";
+    
+    TITLE.innerHTML = "Order";**/
 
 }
 
