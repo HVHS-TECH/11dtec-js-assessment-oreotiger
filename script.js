@@ -51,7 +51,8 @@ function showReceipt() {
 }
 
 function details(){
-
+    let userName; // String (NAME_FIELD.value);
+    console.log
 }
 
 function order(){
