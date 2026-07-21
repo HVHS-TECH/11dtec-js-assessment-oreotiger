@@ -12,8 +12,11 @@ let detailsBox;
 let orderBox; 
 let receiptBox; 
 
-//Functions
+let customerorder = [];
+OUTPUT.innerHTML = customerorder;
 
+
+//Functions
 function showDetails() {
     //Show details
     detailsBox = document.getElementById (detailsBox);
