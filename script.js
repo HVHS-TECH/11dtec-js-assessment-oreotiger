@@ -31,9 +31,11 @@ function showOrder() {
     orderBox = document.getElementById (orderBox);
     receiptBox = document.getElementById (receiptBox);
     console.log("Show order");
+    /**
     orderBox.style.display ="block";
     receiptBox.style.display ="none";
     detailsBox.style.display ="none";
+    **/
     TITLE.innerHTML = "Order";
 
 }
