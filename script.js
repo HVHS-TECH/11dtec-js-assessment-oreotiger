@@ -11,11 +11,11 @@ let userMoney; // Number (MONEY_FIELD.value);
 let detailsBox; 
 let orderBox; 
 let receiptBox; 
+let customerOrder = [];
 
-let customerorder = [];
-OUTPUT.innerHTML = customerorder;
+OUTPUT.innerHTML = customerOrder;
 if (press button blah blah) {
-    
+    customerOrder = 
 }
 
 
