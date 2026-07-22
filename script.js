@@ -58,12 +58,11 @@ function details(){
     console.log
 }
 
-function order(){
-    console.log("has been clicked")
+function chocolate(){
+    console.log ("chocolate has been clicked");
+    customerOrder.push("Chocolate Donut");
     OUTPUT.innerHTML = customerOrder;
 }
-
-
 
     if (chocolateDonut.onClic {
         console.log ("chocolate has been clicked");
