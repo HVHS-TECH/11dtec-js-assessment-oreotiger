@@ -64,6 +64,18 @@ function chocolate(){
     OUTPUT.innerHTML = customerOrder;
 }
 
+function chocolate(){
+    console.log ("chocolate has been clicked");
+    customerOrder.push("Chocolate Donut");
+    OUTPUT.innerHTML = customerOrder;
+}
+
+function chocolate(){
+    console.log ("chocolate has been clicked");
+    customerOrder.push("Chocolate Donut");
+    OUTPUT.innerHTML = customerOrder;
+}
+
 function display (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
 }
