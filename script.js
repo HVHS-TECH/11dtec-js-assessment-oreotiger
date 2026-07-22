@@ -62,7 +62,8 @@ function order(){
     console.log("has been clicked")
     OUTPUT.innerHTML = customerOrder;
     if (chocolateDonut.onClick) {
-        customerOrder.push("Chocolate Donut")
+        console.log ("chocolate has been clicked");
+        customerOrder.push("Chocolate Donut");
         OUTPUT.innerHTML = customerOrder;
     }
 }
