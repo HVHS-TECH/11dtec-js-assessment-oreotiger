@@ -61,12 +61,13 @@ function details(){
 function order(){
     console.log("has been clicked")
     OUTPUT.innerHTML = customerOrder;
+}
+
     if (chocolateDonut.onClick) {
         console.log ("chocolate has been clicked");
         customerOrder.push("Chocolate Donut");
         OUTPUT.innerHTML = customerOrder;
     }
-}
 
 function display (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
