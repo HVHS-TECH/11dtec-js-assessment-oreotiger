@@ -64,12 +64,6 @@ function chocolate(){
     OUTPUT.innerHTML = customerOrder;
 }
 
-    if (chocolateDonut.onClic {
-        console.log ("chocolate has been clicked");
-        customerOrder.push("Chocolate Donut");
-        OUTPUT.innerHTML = customerOrder;
-    }
-
 function display (_name, _price){
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
 }
