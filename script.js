@@ -4,6 +4,7 @@ console.log("Running script.js");
 const OUTPUT = document.getElementById ("JavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const MONEY_FIELD = document.getElementById("moneyField");
+const CHOC_DONUT = document.getElementById("chocolateDonut")
 
 //Variables
 let userName; // String (NAME_FIELD.value);
