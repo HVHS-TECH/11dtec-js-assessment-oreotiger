@@ -27,6 +27,8 @@ function showDetails() {
 
 }
 
+
+
 function showOrder() {
     //Show order
     orderBox = document.getElementById (orderBox);
