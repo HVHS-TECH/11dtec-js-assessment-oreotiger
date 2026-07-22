@@ -28,20 +28,30 @@ function showDetails() {
 }
 
 
+function showDetail () {
+    const ORDER_BOX = document.getElementById (orderBox);
+    ORDER_BOX.style.display = "inline ";
 
-function showOrder() {
-    //Show order
-    orderBox = document.getElementById (orderBox);
-    receiptBox = document.getElementById (receiptBox);
-    console.log("Show order");
-    /**
-    orderBox.style.display ="block";
-    receiptBox.style.display ="none";
-    detailsBox.style.display ="none";
-    
-    TITLE.innerHTML = "Order";**/
+
+
 
 }
+
+
+/*
+function showOrder() {
+    //Show order
+    const ORDER_BOX = document.getElementById (orderBox);
+    receiptBox = document.getElementById (receiptBox);
+    console.log("Show order")
+    orderBox.style.display ="block";
+    receiptBox.style.display ="inline ";
+    detailsBox.style.display ="inline";
+    
+    TITLE.innerHTML = "Order";
+
+}
+    */
 
 function showReceipt() {
     //Show receipt
