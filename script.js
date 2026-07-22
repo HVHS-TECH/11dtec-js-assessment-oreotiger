@@ -12,14 +12,7 @@ let userMoney; // Number (MONEY_FIELD.value);
 let detailsBox; 
 let orderBox; 
 let receiptBox; 
-let customerOrder = [];
-
-OUTPUT.innerHTML = customerOrder;
-if (chocolateDonut.onClick) {
-    customerOrder.push("Chocolate Donut")
-    OUTPUT.innerHTML = customerOrder;
-}
-
+let customerOrder = [ ];
 
 //Functions
 function showDetails() {
@@ -66,7 +59,11 @@ function details(){
 }
 
 function order(){
-
+    OUTPUT.innerHTML = customerOrder;
+    if (chocolateDonut.onClick) {
+        customerOrder.push("Chocolate Donut")
+        OUTPUT.innerHTML = customerOrder;
+    }
 }
 
 function display (_name, _price){
