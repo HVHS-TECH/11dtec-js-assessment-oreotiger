@@ -14,7 +14,9 @@ let receiptBox;
 
 let customerorder = [];
 OUTPUT.innerHTML = customerorder;
-if (press button blah blah)
+if (press button blah blah) {
+    
+}
 
 
 //Functions
