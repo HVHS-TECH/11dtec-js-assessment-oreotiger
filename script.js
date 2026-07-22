@@ -14,7 +14,7 @@ let receiptBox;
 let customerOrder = [];
 
 OUTPUT.innerHTML = customerOrder;
-if (press button blah blah) {
+if () {
     customerOrder.push("Chocolate Donut")
     OUTPUT.innerHTML = customerOrder;
 }
