@@ -15,7 +15,7 @@ let customerOrder = [];
 
 OUTPUT.innerHTML = customerOrder;
 if (press button blah blah) {
-    customerOrder = 
+    customerOrder.push("Chocolate Donut")
 }
 
 
