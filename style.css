@@ -12,15 +12,13 @@ body {
   padding:20px;
 }
 
-.detailsBox {
-  display: block;
-}
 
-.orderBox {
+
+#orderBox {
   display: none;
 }
 
-.receiptBox {
+#receiptBox {
   display: none;
 }
 
