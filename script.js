@@ -45,19 +45,7 @@ function showOrder() {
     TITLE.innerHTML = "Order";
 
 }
-    */
-
-function showReceipt() {
-    //Show receipt
-    detailsBox = document.getElementById(detailsBox);
-    receiptBox = document.getElementById(receiptBox);
-    console.log("Show receipt");
-    orderBox.style.display = "none";
-    receiptBox.style.display = "block";
-    detailsBox.style.display = "none";
-    TITLE.innerHTML = "Receipt";
-
-}
+    *
 
 function details() {
     userName = NAME_FIELD.value;
