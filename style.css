@@ -12,10 +12,16 @@ body {
   padding:20px;
 }
 
-#Test{
-display:none;
-background-blend-mode: blue;
+.detailsBox {
+  display: block;
+}
 
+.orderBox {
+  display: none;
+}
+
+.receiptBox {
+  display: none;
 }
 
 button {

@@ -30,7 +30,7 @@ function showDetails() {
     return;
 
 }
-
+ leswqit till he stops talking
 /*
 function showOrder() {
     //Show order
