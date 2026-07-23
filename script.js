@@ -29,8 +29,9 @@ function showDetails() {
 
 
 function showDetail () {
-    const ORDER_BOX = document.getElementById (Test);
-    ORDER_BOX.style.display = "inline ";
+    const DETAILS_BOX = document.getElementById (detailsBox);
+    DETAILS_BOX.remove
+   
 
 
 
