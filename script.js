@@ -66,8 +66,8 @@ function showReceipt() {
 }
 
 function details(){
-    let userName; // String (NAME_FIELD.value);
-    console.log
+    let userName;  String (NAME_FIELD.value);
+    console.log (userName)
 }
 
 function chocolate(){
