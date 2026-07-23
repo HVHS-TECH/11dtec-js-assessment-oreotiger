@@ -25,6 +25,8 @@ function showDetails() {
     detailsBox.style.display = "block";
     TITLE.innerHTML = "Details";
 
+    return;
+
 }
 
 
