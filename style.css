@@ -12,18 +12,6 @@ body {
   padding:20px;
 }
 
-.detailsBox {
-  display: block;
-}
-
-.orderBox {
-  display: block;
-}
-
-.receiptBox {
-  display: block;
-}
-
 #Test{
 display:none;
 background-blend-mode: blue;
