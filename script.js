@@ -7,8 +7,8 @@ const MONEY_FIELD = document.getElementById("moneyField");
 const CHOC_DONUT = document.getElementById("chocolateDonut")
 
 //Variables
-let userName; // String (NAME_FIELD.value);
-let userMoney; // Number (MONEY_FIELD.value);
+let userName;
+let userMoney;
 let detailsBox; 
 let orderBox; 
 let receiptBox; 
@@ -66,8 +66,9 @@ function showReceipt() {
 }
 
 function details(){
-    let userName;  String (NAME_FIELD.value);
-    console.log (userName)
+     userName=  NAME_FIELD.value;
+     userMoney = MONEY_FIELD.value
+    console.log (userName, userMoney)
 }
 
 function chocolate(){
