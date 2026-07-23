@@ -16,17 +16,18 @@ let receiptBox;
 let cost = 5
 let customerOrder = [];
 
-const DETAILS_BOX = document.getElementById(detailsBox);
-const ORDER_BOX = document.getElementById(orderBox);
-const RECEIPT_BOX = document.getElementById(receiptBox);
+const DETAILS_BOX = document.getElementById('detailsBox');
+const ORDER_BOX = document.getElementById('orderBox');
+const RECEIPT_BOX = document.getElementById('receiptBox');
 
 
 
 //Functions
 
 function addRemoveDiv(_Remove,_Add) {
+    _Remove.remove();
     _Add.style.display = "block";
-    _Remove.remove;
+  
 }
 
 
