@@ -4,7 +4,8 @@ console.log("Running script.js");
 const OUTPUT = document.getElementById ("JavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const MONEY_FIELD = document.getElementById("moneyField");
-const CHOC_DONUT = document.getElementById("chocolateDonut")
+const CHOC_DONUT = document.getElementById("chocolateDonut");
+const TEST = document.getElementById("receiptBox");
 
 //Variables
 let userName;
@@ -12,6 +13,7 @@ let userMoney;
 let detailsBox; 
 let orderBox; 
 let receiptBox; 
+let cost = 5
 let customerOrder = [ ];
 
 //Functions
@@ -28,18 +30,6 @@ function showDetails() {
     return;
 
 }
-
-
-function showDetail () {
-    const DETAILS_BOX = document.getElementById (detailsBox);
-    DETAILS_BOX.remove
-   
-
-
-
-
-}
-
 
 /*
 function showOrder() {
@@ -76,19 +66,19 @@ function details(){
 
 function chocolate(){
     console.log ("chocolate has been clicked");
-    customerOrder.push("Chocolate Donut");
+    customerOrder.push("Chocolate Donut ");
     OUTPUT.innerHTML = customerOrder;
 }
 
-function chocolate(){
-    console.log ("chocolate has been clicked");
-    customerOrder.push("Chocolate Donut");
+function caramel(){
+    console.log ("caramel has been clicked");
+    customerOrder.push("Caramel Donut ");
     OUTPUT.innerHTML = customerOrder;
 }
 
-function chocolate(){
-    console.log ("chocolate has been clicked");
-    customerOrder.push("Chocolate Donut");
+function vanilla(){
+    console.log ("vanilla has been clicked");
+    customerOrder.push("Vanilla Donut ");
     OUTPUT.innerHTML = customerOrder;
 }
 
@@ -97,31 +87,33 @@ function display (_name, _price){
 }
 
 function receipt(){
-    let userMoney = Number (MONEY_FIELD.value);
-    OUTPUT.innerHTML = userName;
-    change = userMoney - 3;
-    display(chocStrawberry, 3);
-    display(chocVanilla, 3);
-    display(chocChocolate, 3);
-    display(vanStrawberry, 3);
-    display(vanVanilla, 3);
-    display(vanChocolate, 3);
-    if (userMoney >= 3) {
-            calculateChange(userMoney, 3); 
+    userName = NAME_FIELD.value;
+    userMoney = MONEY_FIELD.value;
+    calculateChange(); 
+    if (change >= 0) {
+            calculateChange(); 
             OUTPUT.innerHTML += "<p>Order for " + userName + ".</p>";
+            OUTPUT.innerHTML += "<p>Your order costs " + order1 + ". </p>"
+            OUTPUT.innerHTML += "<p>You have " + userMoney + ".</p>"
             OUTPUT.innerHTML +="<p>You can afford this order. <br> You will get $" + change + " change. </p> ";
+            OUTPUT.innerHTML += "<p>Thank you for shopping at Digital Donuts. </p>"
         } else {
             OUTPUT.innerHTML += "<p>Order for " + userName + ".</p>";
+            OUTPUT.innerHTML += "<p>Your order costs " + order1 + ". </p>"
+            OUTPUT.innerHTML += "<p>You have " + userMoney + ".</p>"
             OUTPUT.innerHTML += "<p>Sorry you can't afford this order.</p>";
         }
 }
 
-function calculateChange (_money, _price) {
-    change = userMoney - 4;
+function calculateChange () {
+    userMoney = MONEY_FIELD.value;
+    order1 = customerOrder.length * 5
+    console.log(order1)
+    change = userMoney - order1;
     return change;
 }
 
-//Output / Main code
+
 
 //Console output
 console.log ("Testing pages console");

@@ -30,15 +30,18 @@
         </div>
 
         <div class="orderBox" id="orderBox">
-            <p>order</p>
-            <button onClick="chocolate()" id="chocolateDonut">Chocolate</button>
-            <button onClick="order" id="vanillaDonut">Vanilla</button>
-            <button onClick="order" id="caramelDonut">Caramel</button>
+            <div class="chocolateBox">
+                <button onClick="chocolate()" id="chocolateDonut">Chocolate: $5</button></div>
+            <div class="vanillaBox">
+                <button onClick="vanilla()" id="vanillaDonut">Vanilla: $5</button></div>
+            <div class=caramelBox>      
+                <button onClick="caramel()" id="caramelDonut">Caramel</button></div>  
             <button onClick="showReceipt()">Pay Now</button>
         </div>
 
         <div class="receiptBox" id="receiptBox">
-            <p>Thank you for shopping at Digital Donuts</p>
+            <button onClick="receipt()">Receipt</button>
+            
         </div>
 
     </div>
