@@ -29,7 +29,7 @@ function showDetails() {
 
 
 function showDetail () {
-    const ORDER_BOX = document.getElementById (orderBox);
+    const ORDER_BOX = document.getElementById (Test);
     ORDER_BOX.style.display = "inline ";
 
 
