@@ -16,16 +16,21 @@ let receiptBox;
 let cost = 5
 let customerOrder = [];
 
+const DETAILS_BOX = document.getElementById(detailsBox);
+const ORDER_BOX = document.getElementById(orderBox);
+const RECEIPT_BOX = document.getElementById(receiptBox);
+
+
+
 //Functions
-function removeDiv() {
-    //Show details
-    const DETAILS_BOX = document.getElementById(detailsBox);
-    const ORDER_BOX = document.getElementById(orderBox);
 
-    
-
-
+function addRemoveDiv(_Remove,_Add) {
+    _Add.style.display = "block";
+    _Remove.remove;
 }
+
+
+
 /*
 function showOrder() {
     //Show order
