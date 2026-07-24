@@ -60,9 +60,9 @@ function agePurple() {
   document.getElementById("purpleDrink").innerHTML = text;
 }
 
-function pinkDrink() {
-    console.log("pink drink has been clicked");
-    customerOrder.push(" Pink Drink");
+function purpleDrink() {
+    console.log("purple drink has been clicked");
+    customerOrder.push(" Purple Energy Drink");
     OUTPUT.innerHTML = customerOrder;
 }
 
