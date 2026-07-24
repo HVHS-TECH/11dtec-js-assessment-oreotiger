@@ -49,6 +49,10 @@ img {
   grid-template-rows: auto auto auto;
 }
 
+.finishBox {
+  display: none;
+}
+
 #chocolateDonut {
   background-color: #DCB8CB;
   border-radius: 5px;
