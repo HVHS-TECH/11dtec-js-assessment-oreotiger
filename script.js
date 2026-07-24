@@ -22,7 +22,7 @@ let customerOrder = [];
 //Functions
 function addRemoveDiv(_Remove,_Add) {
     _Remove.remove();
-    _Add.style.display = "block";
+    _Add.style.display = "grid";
 }
 
 function details() {
