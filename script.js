@@ -33,19 +33,19 @@ function details() {
 
 function chocolate() {
     console.log("chocolate has been clicked");
-    customerOrder.push("Chocolate Donut ");
+    customerOrder.push(" Chocolate Donut");
     OUTPUT.innerHTML = customerOrder;
 }
 
 function caramel() {
     console.log("caramel has been clicked");
-    customerOrder.push("Caramel Donut ");
+    customerOrder.push(" Caramel Donut");
     OUTPUT.innerHTML = customerOrder;
 }
 
 function vanilla() {
     console.log("vanilla has been clicked");
-    customerOrder.push("Vanilla Donut ");
+    customerOrder.push(" Vanilla Donut");
     OUTPUT.innerHTML = customerOrder;
 }
 
