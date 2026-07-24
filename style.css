@@ -43,10 +43,6 @@ img {
   grid-template-rows: auto auto auto;
 }
 
-.finishBox {
-  display: none;
-}
-
 .receiptBox {
   display: none;
   grid-template-columns: auto auto auto;
