@@ -93,6 +93,8 @@ input {
   text-decoration: none;
   border-style: solid;
   padding: 5px;
+  font-size: 15px;
+  font-family: Georgia, serif;
 }
 
 a {
