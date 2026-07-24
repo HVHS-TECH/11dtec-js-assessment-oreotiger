@@ -18,7 +18,7 @@ img {
 }
 
 .chocolateBox {
-  background-color: #DCB8CB;
+  background-color: black;
   border-radius: 20px;
 }
 
@@ -38,6 +38,23 @@ img {
   border-radius: 5px;
   text-decoration: none;
   padding: 5px;
+  border-color: #DCB8CB;
+}
+
+#caramelDonut {
+  background-color: #DCB8CB;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  border-color: #DCB8CB;
+}
+
+#vanillaDonut {
+  background-color: #DCB8CB;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+  border-color: #DCB8CB;
 }
 
 button {
