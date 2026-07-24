@@ -78,6 +78,8 @@ button {
   border-style: solid;
   padding: 5px;
   margin: 10px;
+  font-size: 15px;
+  font-family: Georgia, serif;
 }
 
 ::placeholder {
