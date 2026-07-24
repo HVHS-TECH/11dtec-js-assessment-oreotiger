@@ -21,11 +21,11 @@ let customerOrder = [];
 
 //Functions
 function age() {
-  text = "Press a button!\nEither OK or Cancel.";
+  text = "Please confirm you are 16 or older.";
   if (confirm(text) == true) {
     text = "You pressed OK!";
   } else {
-    text = "You canceled!";
+    text = "You are not old enough to purhcase this item.";
   }
   document.getElementById("demo").innerHTML = text;
 }
