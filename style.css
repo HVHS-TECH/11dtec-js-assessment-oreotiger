@@ -43,7 +43,7 @@ img {
   grid-template-rows: auto auto auto;
 }
 
-#receiptBox {
+.receiptBox {
   display: none;
 }
 
