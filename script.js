@@ -30,6 +30,44 @@ function agePink() {
   document.getElementById("pinkDrink").innerHTML = text;
 }
 
+function pinkDrink() {
+    console.log("pink drink has been clicked");
+    customerOrder.push(" Pink Energy Drink");
+    OUTPUT.innerHTML = customerOrder;
+}
+
+function ageLightPink() {
+  text = "Please confirm you are 16 or older.";
+  if (confirm(text) == true) {
+    lightPinkDrink();
+  } else {
+    text = "You are not old enough to purchase this item.";
+  }
+  document.getElementById("lightPinkDrink").innerHTML = text;
+}
+
+function lightPinkDrink() {
+    console.log("light pink drink has been clicked");
+    customerOrder.push(" Light Pink Energy Drink");
+    OUTPUT.innerHTML = customerOrder;
+}
+
+function agePurple() {
+  text = "Please confirm you are 16 or older.";
+  if (confirm(text) == true) {
+    purpleDrink();
+  } else {
+    text = "You are not old enough to purchase this item.";
+  }
+  document.getElementById("purpleDrink").innerHTML = text;
+}
+
+function pinkDrink() {
+    console.log("pink drink has been clicked");
+    customerOrder.push(" Pink Drink");
+    OUTPUT.innerHTML = customerOrder;
+}
+
 function addRemoveDiv(_Remove,_Add) {
     _Remove.remove();
     _Add.style.display = "grid";
@@ -57,18 +95,6 @@ function vanilla() {
     console.log("vanilla has been clicked");
     customerOrder.push(" Vanilla Donut");
     OUTPUT.innerHTML = customerOrder;
-}
-
-function agePink() {
-
-}
-
-function ageLightPink() {
-
-}
-
-function agePurple() {
-
 }
 
 function display(_name, _price) {
