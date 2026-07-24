@@ -2,6 +2,11 @@ body {
  background-color: #D5C9DF; 
 }
 
+nav {
+  background-color: #DCB8CB;
+  border-color:#a2738c;
+}
+
 .container {
   display: grid;
   font-family: Georgia, serif;
