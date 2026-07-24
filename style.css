@@ -12,12 +12,19 @@ body {
   padding:20px;
 }
 
+img {
+  width: 300px;
+  height:auto;
+}
 
+.chocolateBox {
+  background-color: black;
+}
 
 #orderBox {
   display: none;
-  grid-template-columns: auto, auto;
-  grid-template-rows: auto auto auto, auto, auto, auto, auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
   
 }
 
