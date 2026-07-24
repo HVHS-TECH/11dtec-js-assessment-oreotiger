@@ -57,7 +57,6 @@ function agePurple() {
   } else {
     text = "You are not old enough to purchase this item.";
   }
-  document.getElementById("purpleDrink").innerHTML = text;
 }
 
 function purpleDrink() {
