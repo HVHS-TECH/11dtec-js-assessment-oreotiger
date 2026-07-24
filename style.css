@@ -11,7 +11,7 @@ nav {
 }
 
 #grad {
-  background-image: linear-gradient(to top, red, yellow);
+  background-image: linear-gradient(to top, #bfb1ca, #d5c9df);
 }
 
 .container {
