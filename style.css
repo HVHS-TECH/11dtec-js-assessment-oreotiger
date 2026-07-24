@@ -5,7 +5,20 @@ body {
 nav {
   background-color: #DCB8CB;
   border:#a2738c;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
 }
+
+footer {
+  background-color: #DCB8CB;
+  border:#a2738c;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+
 
 .container {
   display: grid;
