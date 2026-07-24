@@ -37,7 +37,6 @@ function pinkDrink() {
 }
 
 function ageLightPink() {
-  text = "Please confirm you are 16 or older.";
   if (confirm(text) == true) {
     lightPinkDrink();
   } else {
