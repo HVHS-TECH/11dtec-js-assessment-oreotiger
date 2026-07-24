@@ -1,5 +1,6 @@
 body {
- background-color: #D5C9DF; 
+  background-image: linear-gradient(to bottom,#d5c9df, #b5a5c3 );
+
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
 }
 
 #grad {
-  background-image: linear-gradient(to top, #bfb1ca, #d5c9df);
+  background-image: linear-gradient(to top, #bfb1ca, black);
 }
 
 .container {
