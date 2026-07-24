@@ -51,7 +51,11 @@
         </div>
 
         <div class="receiptBox" id="receiptBox">
-            
+            <form onsubmit = "return false;">
+                <label for="formName"></label>
+                <input type="text" id="nameField" name="formName" placeHolder="Name" required>
+                <input type="submit" onClick=details()>
+            </form>
             
         </div>
 
