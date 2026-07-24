@@ -20,14 +20,14 @@ let cost = 5
 let customerOrder = [];
 
 //Functions
-function age() {
+function agePink() {
   text = "Please confirm you are 16 or older.";
   if (confirm(text) == true) {
     text = "You pressed OK!";
   } else {
     text = "You are not old enough to purhcase this item.";
   }
-  document.getElementById("demo").innerHTML = text;
+  document.getElementById("pinkDrink").innerHTML = text;
 }
 
 function addRemoveDiv(_Remove,_Add) {
