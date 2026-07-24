@@ -109,13 +109,13 @@ function receipt() {
         OUTPUT.innerHTML += "<p>Your order costs " + order1 + ". </p>"
         OUTPUT.innerHTML += "<p>You have " + userMoney + ".</p>"
         OUTPUT.innerHTML += "<p>You can afford this order. <br> You will get $" + change + " change. </p> ";
-        OUTPUT.innerHTML += "<p>Please rate your experience out of 5. </p>"
+        OUTPUT.innerHTML += "<button onClick = "addRemoveDiv()"><button>"
     } else {
         OUTPUT.innerHTML += "<p>Order for " + userName + ".</p>";
         OUTPUT.innerHTML += "<p>Your order costs " + order1 + ". </p>"
         OUTPUT.innerHTML += "<p>You have " + userMoney + ".</p>"
         OUTPUT.innerHTML += "<p>Sorry you can't afford this order.</p>";
-        OUTPUT.innerHTML += "<p>Please rate your experience out of 5. </p>"
+        OUTPUT.innerHTML += 
     }
 }
 
