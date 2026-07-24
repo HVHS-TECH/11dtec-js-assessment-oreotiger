@@ -49,6 +49,10 @@ function vanilla() {
     OUTPUT.innerHTML = customerOrder;
 }
 
+function age() {
+    
+}
+
 function display(_name, _price) {
     OUTPUT.innerHTML += "<p>" + _name + ": $" + _price + "</p>";
 }
