@@ -14,10 +14,10 @@
             <p>Please fill in your personal details before continuing to order. </p>
             <form onsubmit = "return false;">
                 <label for="formName">Name:</label>
-                <input type="text" id="nameField" name="formName" placeHolder="Name">
+                <input type="text" id="nameField" name="formName" placeHolder="Name" required>
                 <br> <br>
                 <label for="formName">Money: </label>
-                <input type="number" max="1000" min="0" id="moneyField" name="formMoney" placeholder="Money">
+                <input type="number" max="1000" min="0" id="moneyField" name="formMoney" placeholder="Money" required>
                 <input type="submit" onClick=details()>
             </form>
             <br> <br>
