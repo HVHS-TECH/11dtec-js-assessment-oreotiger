@@ -27,7 +27,6 @@ function agePink() {
   } else {
     text = "You are not old enough to purchase this item.";
   }
-  document.getElementById("pinkDrink").innerHTML = text;
 }
 
 function pinkDrink() {
@@ -37,6 +36,7 @@ function pinkDrink() {
 }
 
 function ageLightPink() {
+  text = "Please confirm you are 16 or older.";
   if (confirm(text) == true) {
     lightPinkDrink();
   } else {
