@@ -23,9 +23,9 @@ let customerOrder = [];
 function agePink() {
   text = "Please confirm you are 16 or older.";
   if (confirm(text) == true) {
-    text = "You pressed OK!";
+    pinkDrink();
   } else {
-    text = "You are not old enough to purhcase this item.";
+    text = "You are not old enough to purchase this item.";
   }
   document.getElementById("pinkDrink").innerHTML = text;
 }
