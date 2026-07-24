@@ -5,6 +5,8 @@ body {
 .container {
   display: grid;
   background-color: #D5C9DF;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
   font-style: #000000;
   margin-top: 8px;
   padding:20px;
