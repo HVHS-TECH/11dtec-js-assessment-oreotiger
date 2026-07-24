@@ -20,6 +20,16 @@ let cost = 5
 let customerOrder = [];
 
 //Functions
+function age() {
+  text = "Press a button!\nEither OK or Cancel.";
+  if (confirm(text) == true) {
+    text = "You pressed OK!";
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
 function addRemoveDiv(_Remove,_Add) {
     _Remove.remove();
     _Add.style.display = "grid";
