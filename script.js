@@ -49,8 +49,16 @@ function vanilla() {
     OUTPUT.innerHTML = customerOrder;
 }
 
-function age() {
-    
+function agePink() {
+
+}
+
+function ageLightPink() {
+
+}
+
+function agePurple() {
+
 }
 
 function display(_name, _price) {
