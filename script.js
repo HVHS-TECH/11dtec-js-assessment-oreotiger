@@ -9,6 +9,7 @@ const TEST = document.getElementById("receiptBox");
 const DETAILS_BOX = document.getElementById('detailsBox');
 const ORDER_BOX = document.getElementById('orderBox');
 const RECEIPT_BOX = document.getElementById('receiptBox');
+const FINISH_BOX = document.getElementById('finishBox')
 
 //Variables
 let userName;
